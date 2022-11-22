@@ -1,0 +1,11 @@
+[package]
+name = "cdh-syncer"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/lfrancke/cdp-syncer"
+license = "Apache-2.0"
+rust-version = "1.65"
+
+[dependencies]
+reqwest = { version = "0.11.13", default-features = false, features = ["rustls-tls", "blocking"] }
+scraper = "0.13.0"
